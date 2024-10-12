@@ -1,0 +1,86 @@
+.wrapper {
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#heading {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    letter-spacing: -2px;
+    color: rgb(206, 206, 206);
+    width: 100%;
+    text-align: center;
+    /*padding-left: 20px;*/
+}
+
+#container {
+    height: 80%;
+    min-height: 450px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#firstNumber {
+    font-size: 54px;
+    color: rgb(56, 56, 56);
+    margin: 0px;
+    padding: 10px;
+}
+
+#secondNumber {
+    font-size: 54px;
+    color: rgb(56, 56, 56);
+    margin: 0px;
+    padding: 10px;
+}
+
+#thirdNumber {
+    font-size: 54px;
+    color: rgb(56, 56, 56);
+    margin: 0px;
+    padding: 10px;
+}
+
+#fourthNumber {
+    font-size: 54px;
+    color: rgb(206, 206, 206);
+    margin: 0px;
+    padding: 10px;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+a {
+    font-size: 26px;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 26px;
+    color: rgb(206, 206, 206);
+    letter-spacing: -3px;
+    /*padding-right: 20px;*/
+}

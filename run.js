@@ -50,5 +50,5 @@ function step (event) {
     }
 }
 
-setInterval(step, 500);
+setInterval(step, 700);
 

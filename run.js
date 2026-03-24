@@ -27,11 +27,11 @@ function step(event) {
         i = 2;
     }
     else if (i === 2) {
-        firstDigit.innerHTML = firstDigitrArray[2];
+        firstDigit.innerHTML = firstDigitArray[2];
         i = 3;
     }
     else if (i === 3) {
-        firstDigit.innerHTML = firstDigitrArray[3];
+        firstDigit.innerHTML = firstDigitArray[3];
         i = 4;
     }
     else if (i === 4) {

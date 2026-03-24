@@ -9,11 +9,11 @@ var numberSeven = '7';
 var numberEight = '8';
 var numberNine = '9';
 
-var firstDigitArray = [numberZero, numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix, numberSeven, numberEight];
+var firstDigitArray = [numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix, numberSeven, numberEight];
 
 var firstDigit = document.getElementById('firstDigit');
 
-firstDigit.innerHTML = firstDigitArray[0];
+firstDigit.innerHTML = numberZero;
 
 var i = 0;
 
@@ -48,11 +48,7 @@ function step(event) {
     }
     else if (i === 7) {
         firstDigit.innerHTML = firstDigitArray[7];
-        i = 8;
-    }
-    else if (i === 8) {
-        firstDigit.innerHTML = firstDigitArray[8];
-        i = 1;
+        i = 0;
     }
 }
 

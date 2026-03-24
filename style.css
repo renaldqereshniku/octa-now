@@ -35,28 +35,7 @@
     margin: 0px;
 }
 
-#firstNumber {
-    font-size: 54px;
-    color: rgb(206, 206, 206);
-    margin: 0px;
-    padding: 10px;
-}
-
-#secondNumber {
-    font-size: 54px;
-    color: rgb(206, 206, 206);
-    margin: 0px;
-    padding: 10px;
-}
-
-#thirdNumber {
-    font-size: 54px;
-    color: rgb(206, 206, 206);
-    margin: 0px;
-    padding: 10px;
-}
-
-#fourthNumber {
+#firstDigit {
     font-size: 54px;
     color: rgb(206, 206, 206);
     margin: 0px;

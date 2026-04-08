@@ -52,4 +52,4 @@ function step(event) {
     }
 }
 
-setInterval(step, 100);
+setInterval(step, 1000);

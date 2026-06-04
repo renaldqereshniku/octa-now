@@ -1,4 +1,3 @@
-var numberZero = '0';
 var numberOne = '1';
 var numberTwo = '2';
 var numberThree = '3';
@@ -8,6 +7,7 @@ var numberSix = '6';
 var numberSeven = '7';
 var numberEight = '8';
 var numberNine = '9';
+var numberZero = '0';
 
 var firstDigitArray = [numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix, numberSeven, numberEight];
 

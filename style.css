@@ -51,8 +51,9 @@
 }
 
 a {
-    color: blue;
+    color: rgb(206, 206, 206);
     text-decoration: underline;
+    text-decoration-color: red;
 }
 
 p {

@@ -35,7 +35,7 @@
     margin: 0px;
 }
 
-#firstDigit {
+#firstDigit, #secondDigit {
     font-size: 52px;
     color: rgb(206, 206, 206);
     margin: 0px;

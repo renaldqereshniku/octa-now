@@ -22,7 +22,7 @@ var i = 0;
 var j = 0;
 
 function step(event) {
-  for (j=1; j<9; j++) {
+
     if (i === 0) {
         firstDigit.innerHTML = firstDigitArray[0];
         i = 1;
@@ -55,8 +55,8 @@ function step(event) {
         firstDigit.innerHTML = firstDigitArray[7];
         i = 0;
     }
-  secondDigit.innerHTML = secondDigitArray[j];
-  }
+
+  
 }
 
 setInterval(step, 512);

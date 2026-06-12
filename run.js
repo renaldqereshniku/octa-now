@@ -10,14 +10,19 @@ var numberNine = '9';
 var numberZero = '0';
 
 var firstDigitArray = [numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix, numberSeven, numberEight];
+var secondDigitArray = [numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix, numberSeven, numberEight];
 
 var firstDigit = document.getElementById('firstDigit');
+var secondDigit = document.getElementById('secondDigit');
 
 firstDigit.innerHTML = numberZero;
+secondDigit.innerHTML = numberZero;
 
 var i = 0;
+let j;
 
 function step(event) {
+  for (j=0; j<9; j++) {
     if (i === 0) {
         firstDigit.innerHTML = firstDigitArray[0];
         i = 1;
@@ -50,6 +55,8 @@ function step(event) {
         firstDigit.innerHTML = firstDigitArray[7];
         i = 0;
     }
+  secondDigit.innerHTML = secondDigitArray[j];
+  }
 }
 
 setInterval(step, 512);

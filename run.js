@@ -19,10 +19,10 @@ firstDigit.innerHTML = numberZero;
 secondDigit.innerHTML = numberZero;
 
 var i = 0;
-let j;
+var j = 0;
 
 function step(event) {
-  for (j=0; j<9; j++) {
+  for (j=1; j<9; j++) {
     if (i === 0) {
         firstDigit.innerHTML = firstDigitArray[0];
         i = 1;
